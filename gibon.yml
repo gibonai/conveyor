@@ -1,0 +1,4 @@
+# Commands used by gibon autonomous coding agent to validate work during coding sessions
+dependencies: go mod tidy  # Download and organize Go module dependencies
+unit: make test  # Run unit tests using the project's Makefile test target
+build: go build .  # Build the Go application binary
